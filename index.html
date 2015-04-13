@@ -1,134 +1,38 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>4829 Robotics</title>
-	<link rel="stylesheet" type="text/css" href="Ourteam.css">
-
-</head>
-<body>
-	<div id="navbar">
-	<ul>
-		<li><a href="Robotics.html" id="nav1">Home</a></li>
-		<li><a href="ourteam.html" id="nav2">Our Team</a></li>
-		<li><a href="about.html" id="nav3">About</a></li>
-		<li><a href="contact.html" id="nav4">Contact</a></li>
-	</ul>
-	</div>
-	<div id="body">
-		<div>
-			<h1>
-				Welcome to our team!
-			</h1>
-			<h2>
-				Chassis/Base
-			</h2>
-			<h2>
-				Superstructure
-			</h2>
-			<h2>
-				Electronics
-			</h2>
-			<h2>
-				Programmers
-			</h2>
+  <html lang="en">
+  	<head>
+  	  <meta charset="utf-8">
+  	  <title>4829 Robotics</title>
+  	  <link rel="stylesheet" type="text/css" href="contact.css">
+	<script>
+	</script>
+  	</head>
+ 	 <body>
+   		 <div id="navbar">
+			<ul>
+				<li><a href="Robotics.html" id="nav1">Home</a></li>
+				<li><a href="ourteam.html" id="nav2">Our Team</a></li>
+				<li><a href="sponsors.html" id="nav3">About</a></li>
+				<li><a href="contact.html" id="nav4">Contact</a></li>
+			</ul>
 		</div>
+	<div id="form">
+		<form>
+			<h1>
+				Feel free to contact us with questions or concerns!
+			</h1>
+	      	Name or Organization:<br>
+		      <input type="text" placeholder="John Smith" id="name" name="name">
+		      <br>Email Address:<br>
+		      <input type="email" placeholder="johnsmith@example.com" id="email" name="email">
+		      <br>Enquiry:<br>
+		      <input type="text" placeholder="What is your question?" id="enquiry" name="enquiry">
+		      <br>Message:<br>
+		      <textarea name="Message" cols="40" rows="5" id="message" placeholder="Message here"></textarea>
+		      <br><br>
+		      <input type="submit" value="Submit" onclick="submitform(); false">
+	    </form>
 	</div>
-	<div id="ip"><p id="copyright">Copyright &copy; 2015 Noah Miller Johnson</p></div>
-	
-	<style>
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-
-li {
-	display: inline;
-	float:left;
-}
-div div ul{
-	margin: 25px 25px 25px 25px;
-}
-
-h1 {
-	text-align: center;
-	font-size: 160%;
-	font-family: Helvetica Neue Thin, Optima;
-}
-
-h2 {
-	text-transform: underline;
-	font-size: 100%;
-	font-family: Helvetica Neue Thin, Optima;
-	padding: .5em 0em 0em .8em;
-}
-h3 {
-	font-size: 90%;
-	padding: 0px 0px 0px 40px;
-}
-p {
-	font-size: 15px;
-	margin: 25px;
-	line-height: 120%;
-    margin-left: 50px;
-	margin-bottom: 270px;
-   	margin-top: 50px;
-    
-}
-a:link, a:visited {
-    display: block;
-    width: 8em;
-    height: 1.5em;
-    font-weight: bold;
-    color: rgba(90, 90, 90, 1);
-    background-color: rgba(255, 255, 255, .78);
-    text-align: center;
-    padding: .25em;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 115%;
-}
-
-
-a:hover, a:active {
-    background-color: black;
-}
-
-#body {
-	margin: 5% 5% 0% 5%;
-	background-color: #FFFFFF;
-	padding: .3em .5em .3em .5em;
-	background: rgba(255, 255, 255, .78)
-}
-
-body {
-	background-size: cover;
-	background-image: url("https://s-media-cache-ak0.pinimg.com/236x/aa/11/63/aa11635d6c329c877ae986c06d4f06c5.jpg");
-		background-attachment: fixed;
-
-}
-#navbar {
-	position: fixed;
-	left: 50%;
-	margin-left: -17em;
-	top: .5em;
-}
-
-form{
-	margin: 5% 5% 0% 5%;
-	background-color: #FFFFFF;
-	padding: .3em .5em .3em .5em;
-	background: rgba(255, 255, 255, .78)
-}
-
-#copyright {
-	color: #FFFFFF;
-	font-size: .65em;
-}
-
-#ip {
-	margin-left:80%;
-}</style>
-</body>
+	<div id="ip"><p id="copyright">Copyright &copy; 2015 Anja Mara Sheppard and Noah Miller Johnson</p></div>
+  </body>
 </html>
